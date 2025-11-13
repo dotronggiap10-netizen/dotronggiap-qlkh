@@ -1,9 +1,10 @@
 <?php
 // config.php
-$DB_HOST = 'localhost';
-$DB_NAME = 'quanly_khoahoc';
-$DB_USER = 'root';
-$DB_PASS = ''; // nếu bạn có password thì sửa lại
+$DB_HOST = 'dpg-d4a9bu1r0fns73fgi0mg-ast';
+$port = '5432';
+$DB_NAME = 'qlkhhoc';
+$DB_USER = 'qlkh';
+$DB_PASS = 'uC0DeaVBIuoanRkmyjOtryFEnf4ciJXc'; 
 
 try {
     $pdo = new PDO("mysql:host=$DB_HOST;dbname=$DB_NAME;charset=utf8mb4", $DB_USER, $DB_PASS, [
